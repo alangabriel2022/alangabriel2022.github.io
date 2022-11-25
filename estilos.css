@@ -1,0 +1,274 @@
+body{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif; 
+    font-size: 1rem;
+}
+/* BARRA DE NAVEGADOR*/
+nav{
+    background: #ffffff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #feffff);  
+background: linear-gradient(to right, #18096d, #ffffff); 
+}
+.navbar-brand{
+    color: rgb(255, 255, 255);
+} 
+nav, button{
+    color: rgb(255, 255, 255);
+}
+
+
+/*FIN BARRA DE NAVEGADOR*/
+
+/*SECCCIONES INTRODUCTORIAS*/
+.seccion1 h1{
+    text-align: center;
+}
+/*ANIMACION EN EL TITUILO INICIAL "NUESTRO GIMNASIO"*/
+.TituloInical{
+    
+        text-transform: uppercase;
+        background-image: linear-gradient(
+        -225deg,
+        #14632c 0%,
+        #38c256 29%,
+        #1dd4a7 67%,
+        #158d7d 100%
+        );
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+    }      
+    @keyframes textclip {
+        to {
+        background-position: 200% center;
+        }
+}
+/* FIN DE ANIMACION EN EL TITUILO INICIAL "NUETROGIMNASIO"*/
+
+/*ANIMACION EN EL TITUILO INTRO "AERÓBICO"*/
+.TextoAnimadoA{   
+        text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #6d0adf 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #ff0000 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    }
+    
+    @keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+    }
+/*FIN DE ANIMACION EN EL TITUILO INTRO "AERÓBICO"*/
+
+/*ANIMACION EN EL TITUILO INTRO "INSTRUCTORES"*/
+.TextoAnimadoB{   
+    text-transform: uppercase;
+    background-image: linear-gradient(
+    -225deg,
+        #df0a0a 0%,
+        #7a3210 29%,
+        #ff9913 67%,
+        #fffb00 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+}      
+@keyframes textclip {
+    to {
+    background-position: 200% center;
+    }
+}
+/*FIN DE ANIMACION EN EL TITUILO INTRO "INSTRUCTORES"*/
+
+.Posterinformacion {
+    padding-top: 56px;
+}
+.pastillas{
+    background-color: #2541e2;
+    
+}
+.galeria{
+    background-color: rgb(69, 200, 240);
+}
+.noticia{
+    background-color: rgb(8, 21, 131);
+    color: antiquewhite;
+}
+.noticiayoga .row{
+    background-color: blue;
+}
+#noticiadiadeyoga h3{
+    padding-top: 20px;
+}
+.video{
+    background-color: rgb(7, 10, 37);
+    color: aliceblue;
+}
+.video h2{
+    text-align: center;
+}
+#contacto{
+    padding-bottom: 30px;
+}
+#telefono h3{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+    -225deg,
+        #5aaf0a 0%,
+        #068d12 29%,
+        #045831 67%,
+        #04174b 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+}      
+@keyframes textclip {
+    to {
+    background-position: 200% center;
+    }
+}
+.redes{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+    -225deg,
+        #df0a0a 0%,
+        #c4d80d 29%,
+        #ff13cc 67%,
+        #3700ff 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+}      
+@keyframes textclip {
+    to {
+    background-position: 200% center;
+    }
+}
+.footerfinal {
+    background-color: rgb(1, 5, 24);
+}
+footer{
+    background-color: #3ebcee;
+}
+footer input{
+    border: 0;
+}
+
+
+/*VIEWPORT TABLET (768PX)*/
+@media (min-width: 768px) {
+    body{
+        font-size: 1rem;
+    }
+    .seccion1 h1{
+        text-align: justify;
+    }
+    .video h2{
+        text-align: justify;
+    }
+    /*ESTILOS PARA NOTICIAS*/
+    #noticiamaquina{
+        margin-top: 0px;
+    }
+    #noticiamaquina h3{
+        padding-top: 0;
+    }
+    #noticiainicio{
+        margin-top: 200;
+    }
+
+/*FIN DE ESTILOS PARA NOTICIAS*/
+}
+/* FIN VIEWPORT TABLET (768PX)*/
+
+
+
+/*VIEWPORT ESCRITORIO (992PX)*/
+@media (min-width: 992px) {
+    body{
+        font-size: 1.125rem;
+    }
+    /* PADDING PARA TITULOS DE PASTILLAS*/
+    .pastillas{
+        font-size: 0.9375rem;
+    }
+    #horas h3{
+        padding-top: 0.625rem;
+        padding-bottom: 1.1875rem;
+    }
+    #dias h3{
+        padding-top: 0.625rem;
+        padding-bottom: 1.1875rem;
+    }
+    #mes {
+        padding-top: 0.625rem;
+        padding-bottom: 1.1875rem;
+    }
+    #anual{
+        padding-top: 0.625rem;
+        padding-bottom: 1.1875rem;
+    }
+/*FIN DE ESTILOS PARA PASTILLAS*/
+
+/*ESTILOS PARA NOTICIAS*/
+    #noticiamaquina{
+        margin-top: 20px;
+    }
+    #noticiainicio{
+        margin-top: 20px;
+    }
+/*FIN DE ESTILOS PARA NOTICIAS*/
+    #telefono{
+        margin-top: 12.5rem;    
+    }
+    #formulario {
+        background-color: black;
+    }
+}
+/*FIN VIEWPORT ESCRITORIO (992PX)*/
+
+
+
+/*VIEWPOR XL (1200PX)*/
+@media (min-width: 1200px) {
+/*ESTILOS PARA NOTICIAS*/
+    #imgnoticiayoga{
+        padding-top: 38px;
+    }
+}
+/*FIN DE ESTILOS PARA NOTICIAS*/
+/* FIN DE VIEWPOR XL (1200PX)*/
